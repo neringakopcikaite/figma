@@ -12,9 +12,6 @@ body {
 
 .logo {
   max-width: 133px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .featured-image {
@@ -26,4 +23,54 @@ body {
   width: 660px;
   margin: 0;
   margin-right: 60px;
+}
+
+.description p {
+  font-size: 12px;
+}
+
+.card-body {
+  height: 300px;
+}
+
+.card {
+  border-radius: 0 !important;
+  border: 0 !important;
+}
+
+p {
+  font-size: 12px;
+}
+
+.font-size-h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.font-size-h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer {
+  color: white;
+  background-color: #050a3a;
+  gap: 35px;
+  padding: 30px 80px;
+}
+
+.info-details {
+  gap: 40px;
+  margin-top: 30px;
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.info-details span:first-of-type {
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.footer-second-row {
+  justify-content: space-between;
 }
